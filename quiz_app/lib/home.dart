@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Quiz extends StatefulWidget {
-  const Quiz({super.key});
+class Home extends StatefulWidget {
+  const Home({super.key});
 
   @override
-  State<Quiz> createState() => _QuizState();
+  State<Home> createState() => _HomeState();
 }
 
-class _QuizState extends State<Quiz> {
+class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Center(

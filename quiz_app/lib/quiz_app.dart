@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'quiz.dart';
+import 'home.dart';
 
 class QuizApp extends StatelessWidget {
   const QuizApp({super.key});
@@ -10,7 +10,7 @@ class QuizApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Color.fromARGB(255, 79, 0, 148),
-        body: SafeArea(child: Quiz()),
+        body: SafeArea(child: Home()),
       ),
     );
   }
