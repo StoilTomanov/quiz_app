@@ -17,11 +17,15 @@ class Home extends StatelessWidget {
             style: TextStyle(color: Colors.white, fontSize: 26),
           ),
           SizedBox(height: 60),
-          OutlinedButton(
+          OutlinedButton.icon(
             onPressed: () {
               print('Quiz is starting...');
             },
-            child: Text(
+            style: OutlinedButton.styleFrom(
+              foregroundColor: Colors.white
+            ),
+            icon: Icon(Icons.arrow_right_alt),
+            label: Text(
               'Start Quiz',
               style: TextStyle(color: Colors.white, fontSize: 16),
             ),
